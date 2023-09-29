@@ -1,0 +1,171 @@
+body {
+    font-family: 'EB Garamond', serif;
+    margin: 0px;
+    padding: 0px;
+    background: url("img/backimage.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.left {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    
+}
+.textt{
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size:150%;
+
+}
+
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 35px auto;
+
+    background-color:rgb(68 87 125);
+    
+
+    /* border-radius: 20px; */
+}
+
+.right {
+    /* border: 2px solid rgb(7, 17, 86); */
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 95px;
+
+}
+
+.mid ul {
+    display: inline-block;
+    margin: 35px auto;
+
+}
+
+.mid ul li {
+    display: inline-block;
+
+}
+
+.mid ul li a {
+    text-decoration: none;
+    color:white;
+    padding: 27px;
+}
+
+.mid ul li a:hover{
+    color: rgb(227, 223, 223);
+    background-color: black;
+}
+
+.left img {
+    height: 72px;
+    width: 97px;
+
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-weight: 500;
+    /* border-radius: 18px; */
+    /* margin: 5px; */
+    cursor: pointer;
+    padding: 0px 12px;
+}
+
+.container {
+    display: inline-block;
+    padding: 15px;
+    /* color: rgb(235, 173, 49); */
+    position: relative;
+    left: 100px;
+    top: 100px;
+    border: 2px solid white;
+    width: 360px;
+    border-radius: 20px;
+}
+.events{
+   
+    display: flex;
+    float: inline-end;
+    margin-right: 80px;
+        color: black;
+        border-radius: 20px; 
+    width: 900px;
+    height: 560px;
+    background-color:white;
+}
+
+.inputs {
+    margin: 5px;
+}
+
+.inputs input {
+    padding: 5px;
+    width: 250px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+.container button {
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+}
+
+h1 {
+    color:#fff176;
+    text-align: center;
+}
+.events h1{
+    color: black;
+    
+    font-size: 250%;
+}
+hr{
+    width: 98%;
+  text-align: right;
+  margin-left: 8px;
+}
+.box{
+    display: inline-block;
+  
+ 
+}
+.boxes{
+    display: inline-block;
+  width: 285px;
+  height: 416px;
+  /* background-color: violet; */
+  margin: 8px 6px ;
+  text-align:center;
+  vertical-align:top;
+}
+.boxes img{
+    margin-left: 15px;
+    height: 185px;
+    width: 250px;
+    margin-bottom: 16px;
+}
+.detail{
+    margin-top: 8px;
+}
